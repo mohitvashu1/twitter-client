@@ -2,6 +2,7 @@
   "name": "twitter-client",
   "version": "0.1.0",
   "private": true,
+  "license": "Mohit",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@react-oauth/google": "^0.13.4",
     "icons": "^1.0.0",
     "next": "16.1.0",
     "react": "^19.2.3",

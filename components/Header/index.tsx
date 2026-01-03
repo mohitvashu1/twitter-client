@@ -1,5 +1,7 @@
 import { BsTwitterX } from "react-icons/bs";
+import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
+import logo from "../../public/logo.png"
 
 const Header = () => {
   return (
@@ -9,7 +11,7 @@ const Header = () => {
         {/* LOGO */}
         <div className="col-span-3  ml-30">
           <div className="p-3 w-fit rounded-full hover:bg-[#181919] cursor-pointer">
-            <BsTwitterX className="text-[40px]" />
+            <Image src={logo} alt="logo" width={55}/>
           </div>
         </div>
 

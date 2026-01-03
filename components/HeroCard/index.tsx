@@ -6,7 +6,7 @@ import { BiHash, BiHomeCircle, BiSearch, BiUser } from "react-icons/bi";
 import { CiCircleMore } from "react-icons/ci";
 import Link from "next/link";
 import FeedCard from "@/components/FeedCard";
-import RightCard from "../Trending";
+// import RightCard from "../Trending";
 
 interface TwitterSidebarButton {
   title: string;
@@ -50,8 +50,8 @@ const HeroCard: React.FC = () => {
             ))}
           </ul>
 
-          <button className="mt-6 hidden sm:block bg-[#1d9bf0] hover:bg-[#178fde] text-white font-semibold text-lg py-3 rounded-full w-[65%] self-center">
-            Tweet
+          <button className="mt-6 hidden sm:block bg-[#f5eaea] hover:bg-[#949393] text-black font-semibold text-lg py-3 rounded-full w-[65%] self-center">
+            Post
           </button>
         </div>
       </div>
@@ -70,7 +70,7 @@ const HeroCard: React.FC = () => {
 
       {/* Right Section */}
       <div className="hidden sm:block col-span-3 border-r border-gray-800 sticky top-0 min-h-0">
-        <RightCard/>
+        {/* <RightCard/> */}
       </div>
     </div>
   );
