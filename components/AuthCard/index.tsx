@@ -22,6 +22,9 @@ const AuthCard = ({ onLogin }: { onLogin: () => void }) => {
      );
      toast.success("Verified Success");
      console.log(verifyGoogleToken);
+
+     if(verifyGoogleToken)
+        window.localStorage.setItem("_M_token",verifyGoogleToken);
      
     },
     []
